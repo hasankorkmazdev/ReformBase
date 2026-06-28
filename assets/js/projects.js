@@ -200,7 +200,8 @@
     var $titleEl = $('<h2>', { class: 'project-showcase__title' })
       .append(
         $('<span>', { text: 'REF', css: { color: '#ffffff' } }),
-        ' ' + project.title
+        ' ',
+        $('<span>', { text: project.title, css: { color: project.color } })
       );
 
     $overlay.append($titleEl);
