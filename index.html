@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reform3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <div class="blob-bg">
+    <div class="blob blob-black"></div>
+    <div class="blob blob-red"></div>
+    <div class="blob blob-white"></div>
+    <div class="blob blob-blue"></div>
+  </div>
+  <div class="site-wrapper">
   <header class="header">
     <div class="container header__inner">
       <a href="/" class="logo">
@@ -74,8 +82,8 @@
               <div class="project-detail__cover">
                 <img class="project-detail__image" alt="Proje Görseli">
                 <div class="project-detail__overlay">
-                  <h3 class="project-detail__title"></h3>
-                  <p class="project-detail__desc"></p>
+                  <p class="project-detail__material-text">Kullanılan malzemeler ve yapı malzemelerini öğrenmek için</p>
+                  <button class="project-detail__detail-btn">DETAYLI BİLGİ AL</button>
                 </div>
               </div>
               <div class="project-detail__form">
@@ -93,7 +101,8 @@
                   <div class="request-form__group">
                     <textarea class="request-form__input request-form__textarea" placeholder="Mesajınız" rows="4"></textarea>
                   </div>
-                  <button type="submit" class="request-form__btn">Gönder</button>
+                  <button type="submit" class="request-form__btn">Gönder <i class="fa-solid fa-paper-plane"></i></button>
+                  <p class="request-form__callback"><i class="fa-regular fa-clock"></i> 30 dk içinde sizi arayacağız</p>
                 </form>
               </div>
             </div>
@@ -105,6 +114,43 @@
 
   <div class="dropdown-fixed" id="dropdownFixed"></div>
 
+  <!-- Chat Widget -->
+  <button class="chat-btn" id="chatBtn" aria-label="Sohbeti Aç">
+    <i class="fa-solid fa-comment-dots"></i>
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-panel__header">
+      <div class="chat-panel__header-info">
+        <div class="chat-panel__avatar">
+          <i class="fa-solid fa-headset"></i>
+        </div>
+        <div>
+          <h4 class="chat-panel__title">Reform3 Destek</h4>
+          <span class="chat-panel__status">Çevrimiçi</span>
+        </div>
+      </div>
+      <button class="chat-panel__close" id="chatClose" aria-label="Sohbeti Kapat">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+    </div>
+    <div class="chat-panel__messages" id="chatMessages">
+      <div class="chat-message chat-message--bot">
+        <div class="chat-message__text">Merhaba! Size nasıl yardımcı olabilirim?</div>
+        <span class="chat-message__time">Şimdi</span>
+      </div>
+    </div>
+    <div class="chat-panel__footer">
+      <form class="chat-form" id="chatForm">
+        <input type="text" class="chat-form__input" placeholder="Mesajınızı yazın..." required>
+        <button type="submit" class="chat-form__btn" aria-label="Gönder">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
@@ -113,6 +159,13 @@
             <img src="assets/logo/logo-white.png" alt="Reform İnovasyon" height="32">
           </a>
           <p class="footer-desc">Reform İnovasyon Yapı, inşaat sektöründe yenilikçi projeleriyle geleceği inşa ediyor. Kaba inşaat, iç mekan, dış cephe, mobilya ve danışmanlık hizmetleri.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social__link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="footer-social__link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social__link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer-social__link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="footer-social__link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
         <div>
           <h5 class="footer-heading">Hızlı Linkler</h5>
@@ -162,5 +215,6 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="assets/js/projects.js"></script>
   <script src="assets/js/main.js"></script>
+</div>
 </body>
 </html>

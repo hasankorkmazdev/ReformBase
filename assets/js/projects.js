@@ -292,6 +292,22 @@
         }).appendTo($card);
       }
 
+      var $info = $('<div>', { class: 'floor-plan-card__info' });
+
+      $('<span>', { class: 'floor-plan-card__info-item' })
+        .html('<i class="fa-solid fa-bed"></i> ' + (fp.bedroomCount || 0))
+        .appendTo($info);
+
+      $('<span>', { class: 'floor-plan-card__info-item' })
+        .html('<i class="fa-solid fa-shower"></i> ' + (fp.showerCount || 0))
+        .appendTo($info);
+
+      $('<span>', { class: 'floor-plan-card__info-item' })
+        .html('<i class="fa-solid fa-cube"></i> ' + (fp.daireAdeti || 0))
+        .appendTo($info);
+
+      $info.appendTo($card);
+
       $('<a>', {
         class: 'floor-plan-card__ghost-link',
         href : '#',
@@ -316,8 +332,6 @@
     })[0] || project.images[0];
 
     var $img   = $('.project-detail__image');
-    var $title = $('.project-detail__title');
-    var $desc  = $('.project-detail__desc');
 
     if (activeImage) {
       $img.attr({
@@ -326,10 +340,7 @@
       });
     }
 
-    $title.text(project.title);
-    $desc.text(project.description);
 
-    $('.request-form__btn').css('background', project.color);
   }
 
   /* ============================

@@ -101,6 +101,57 @@
     hideFixed();
   });
 
+  // ---- Chat Widget ----
+  var chatBtn = document.getElementById('chatBtn');
+  var chatPanel = document.getElementById('chatPanel');
+  var chatClose = document.getElementById('chatClose');
+  var chatForm = document.getElementById('chatForm');
+  var chatInput = chatForm.querySelector('.chat-form__input');
+  var chatMessages = document.getElementById('chatMessages');
+
+  function toggleChat(open) {
+    var isActive = chatPanel.classList.contains('active');
+    if (open === undefined) open = !isActive;
+    chatPanel.classList.toggle('active', open);
+    chatBtn.classList.toggle('active', open);
+    if (open) {
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      chatInput.focus();
+    }
+  }
+
+  chatBtn.addEventListener('click', function () { toggleChat(); });
+  chatClose.addEventListener('click', function () { toggleChat(false); });
+
+  chatForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var text = chatInput.value.trim();
+    if (!text) return;
+
+    // User message
+    var userMsg = document.createElement('div');
+    userMsg.className = 'chat-message chat-message--user';
+    userMsg.innerHTML = '<div class="chat-message__text">' + escapeHtml(text) + '</div><span class="chat-message__time">Şimdi</span>';
+    chatMessages.appendChild(userMsg);
+    chatInput.value = '';
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    // Auto-reply after short delay
+    setTimeout(function () {
+      var botMsg = document.createElement('div');
+      botMsg.className = 'chat-message chat-message--bot';
+      botMsg.innerHTML = '<div class="chat-message__text">Teşekkür ederiz. En kısa sürede size dönüş yapacağız.</div><span class="chat-message__time">Şimdi</span>';
+      chatMessages.appendChild(botMsg);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }, 800);
+  });
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
   // ---- Resize ----
   var resizeTimer;
   window.addEventListener('resize', function () {
