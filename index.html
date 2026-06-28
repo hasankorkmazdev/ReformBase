@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reform3</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <img src="assets/logo/logo-white.png" alt="Reform3">
+      </a>
+      <button class="hamburger" aria-label="Menüyü Aç/Kapa">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--dropdown">
+            <a href="#" class="nav__link">KURUMSAL</a>
+            <ul class="dropdown" id="dropdown-corporate">
+              <li><a href="#">HAKKIMIZDA</a></li>
+              <li><a href="#">VİZYONUMUZ</a></li>
+              <li><a href="#">MİSYONUMUZ</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">HİZMETLERİMİZ</a>
+          </li>
+          <li class="nav__item nav__item--dropdown">
+            <a href="#" class="nav__link">PROJELER</a>
+            <ul class="dropdown dropdown--projects" id="dropdown-projects"></ul>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">İLETİŞİM</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--cta">BİZİMLE ÇALIŞIN</a>
+          </li>
+          <li class="nav__item nav__item--lang">
+            <a href="#" class="lang active">TR</a>
+            <span class="lang__sep">|</span>
+            <a href="#" class="lang">EN</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-showcase" id="projectShowcase">
+      <div class="project-showcase__inner"></div>
+    </section>
+
+    <div class="project-bar" id="projectBar">
+      <div class="container project-bar__container">
+        <button class="project-bar__btn project-bar__btn--prev" aria-label="Önceki proje">‹</button>
+        <div class="project-bar__track">
+          <div class="project-bar__inner"></div>
+        </div>
+        <button class="project-bar__btn project-bar__btn--next" aria-label="Sonraki proje">›</button>
+      </div>
+    </div>
+
+    <section class="floor-plans" id="floorPlans">
+      <div class="container">
+        <div class="floor-plans__card">
+          <div class="floor-plans__container"></div>
+          <div class="project-detail" id="projectDetail">
+            <div class="project-detail__inner" id="projectDetailInner">
+              <div class="project-detail__cover">
+                <img class="project-detail__image" alt="Proje Görseli">
+                <div class="project-detail__overlay">
+                  <h3 class="project-detail__title"></h3>
+                  <p class="project-detail__desc"></p>
+                </div>
+              </div>
+              <div class="project-detail__form">
+                <h3 class="project-detail__form-title">Daire Bilgi Talep Formu</h3>
+                <form class="request-form">
+                  <div class="request-form__group">
+                    <input type="text" class="request-form__input" placeholder="Adınız Soyadınız" required>
+                  </div>
+                  <div class="request-form__group">
+                    <input type="tel" class="request-form__input" placeholder="Telefon Numaranız" required>
+                  </div>
+                  <div class="request-form__group">
+                    <input type="email" class="request-form__input" placeholder="E-posta Adresiniz" required>
+                  </div>
+                  <div class="request-form__group">
+                    <textarea class="request-form__input request-form__textarea" placeholder="Mesajınız" rows="4"></textarea>
+                  </div>
+                  <button type="submit" class="request-form__btn">Gönder</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="dropdown-fixed" id="dropdownFixed"></div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

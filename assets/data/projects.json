@@ -1,0 +1,285 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "RED",
+    "subtitle": "Toplu Konut",
+    "description": "RefRed projesi ile dijital dönüşümde yeni bir çağ başlatıyoruz. Modern altyapısı ve yenilikçi yaklaşımıyla sektörde fark yaratıyor.",
+    "type": "",
+    "color": "#DC3545",
+    "images": [
+      { "cover": "assets/images/business-center.jpg", "order": 1, "active": true },
+      { "cover": "assets/images/house-1.jpg", "order": 2, "active": true },
+      { "cover": "assets/images/hotel.jpg", "order": 3, "active": true },
+      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
+    ],
+    "floorPlans": [
+      {
+        "title": "1+1 Daire",
+        "subtitle": "Kompakt Tip",
+        "description": "55 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
+        "daireAdeti": 18,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "2+1 Daire",
+        "subtitle": "Standart Tip",
+        "description": "70 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak",
+        "daireAdeti": 24,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "3+1 Daire",
+        "subtitle": "Geniş Aile Tipi",
+        "description": "95 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, balkon",
+        "daireAdeti": 12,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "4+1 Daire",
+        "subtitle": "Premium Tip",
+        "description": "120 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
+        "daireAdeti": 6,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "title": "BLUE",
+    "subtitle": "Apartman",
+    "description": "RefBlue ile sürdürülebilir ve akıllı çözümler hayata geçiyor. Mavi teknoloji vizyonumuzla geleceği şekillendiriyoruz.",
+    "type": "",
+    "color": "#0F52BA",
+    "images": [
+      { "cover": "assets/images/hotel.jpg", "order": 1, "active": true },
+      { "cover": "assets/images/house-2.jpg", "order": 2, "active": true },
+      { "cover": "assets/images/aparment.jpg", "order": 3, "active": true },
+      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
+    ],
+    "floorPlans": [
+      {
+        "title": "1+1 Daire",
+        "subtitle": "Kompakt Tip",
+        "description": "50 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
+        "daireAdeti": 18,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "2+1 Daire",
+        "subtitle": "Aile Tipi",
+        "description": "75 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
+        "daireAdeti": 10,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "3+1 Daire",
+        "subtitle": "Geniş Aile Tipi",
+        "description": "100 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
+        "daireAdeti": 8,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "4+1 Daire",
+        "subtitle": "Premium Tip",
+        "description": "130 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
+        "daireAdeti": 4,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "title": "GREEN",
+    "subtitle": "İş Merkezi",
+    "description": "RefGreen çevreye duyarlı projeleriyle fark yaratıyor. Sürdürülebilirlik odaklı çözümler sunuyoruz.",
+    "type": "",
+    "color": "#28A745",
+    "images": [
+      { "cover": "assets/images/aparment.jpg", "order": 1, "active": true },
+      { "cover": "assets/images/business-center.jpg", "order": 2, "active": true },
+      { "cover": "assets/images/house-1.jpg", "order": 3, "active": true },
+      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
+    ],
+    "floorPlans": [
+      {
+        "title": "Küçük Ofis",
+        "subtitle": "Giriş Seviyesi",
+        "description": "30 m² ofis alanı, açık çalışma düzeni, ortak toplantı odası",
+        "daireAdeti": 15,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "Orta Ofis",
+        "subtitle": "Standart",
+        "description": "45 m² ofis alanı, özel çalışma odası, toplantı odası, mutfak",
+        "daireAdeti": 10,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "Büyük Ofis",
+        "subtitle": "Executive",
+        "description": "60 m² ofis alanı, özel çalışma odaları, toplantı odası, mutfak",
+        "daireAdeti": 8,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "Plaza Ofis",
+        "subtitle": "Premium",
+        "description": "90 m² ofis alanı, özel çalışma odaları, yönetici odası, toplantı odası, mutfak, teras",
+        "daireAdeti": 4,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+    "title": "BROWN",
+    "subtitle": "Toplu Konut",
+    "description": "RefBrow doğal kaynakları verimli kullanarak değer yaratır. Geleneksel ile moderni birleştiren çözümler.",
+    "type": "",
+    "color": "#8B4513",
+    "images": [
+      { "cover": "assets/images/house-1.jpg", "order": 1, "active": true },
+      { "cover": "assets/images/business-center.jpg", "order": 2, "active": true },
+      { "cover": "assets/images/house-2.jpg", "order": 3, "active": true },
+      { "cover": "assets/images/hotel.jpg", "order": 4, "active": true }
+    ],
+    "floorPlans": [
+      {
+        "title": "1+1 Daire",
+        "subtitle": "Kompakt Tip",
+        "description": "55 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
+        "daireAdeti": 20,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "2+1 Daire",
+        "subtitle": "Standart Tip",
+        "description": "80 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
+        "daireAdeti": 30,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 2, "active": true, "isCover": false },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 3, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "3+1 Daire",
+        "subtitle": "Geniş Aile Tipi",
+        "description": "105 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
+        "daireAdeti": 14,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false },
+          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 3, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "4+1 Daire",
+        "subtitle": "Premium Tip",
+        "description": "140 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
+        "daireAdeti": 6,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+    "title": "WHITE",
+    "subtitle": "Toplu Konut",
+    "description": "RefWhite şeffaflık ve güven ilkesiyle çalışır. Temiz ve güvenilir çözümler sunuyoruz.",
+    "type": "",
+    "color": "#78909C",
+    "images": [
+      { "cover": "assets/images/house-2.jpg", "order": 1, "active": true },
+      { "cover": "assets/images/hotel.jpg", "order": 2, "active": true },
+      { "cover": "assets/images/aparment.jpg", "order": 3, "active": true },
+      { "cover": "assets/images/house-1.jpg", "order": 4, "active": true }
+    ],
+    "floorPlans": [
+      {
+        "title": "1+1 Daire",
+        "subtitle": "Kompakt Tip",
+        "description": "60 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
+        "daireAdeti": 12,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "2+1 Daire",
+        "subtitle": "Standart Tip",
+        "description": "85 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
+        "daireAdeti": 20,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "3+1 Daire",
+        "subtitle": "Geniş Tip",
+        "description": "100 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
+        "daireAdeti": 16,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 2, "active": true, "isCover": false },
+          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 3, "active": true, "isCover": false }
+        ]
+      },
+      {
+        "title": "4+1 Daire",
+        "subtitle": "Premium Tip",
+        "description": "130 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
+        "daireAdeti": 6,
+        "images": [
+          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        ]
+      }
+    ]
+  }
+]
