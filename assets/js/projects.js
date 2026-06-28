@@ -292,6 +292,12 @@
         }).appendTo($card);
       }
 
+      $('<a>', {
+        class: 'floor-plan-card__ghost-link',
+        href : '#',
+        text : 'Detayları İncele →'
+      }).appendTo($card);
+
       $wrapper.append($card);
     });
 
