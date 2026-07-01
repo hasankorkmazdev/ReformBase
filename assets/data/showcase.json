@@ -1,0 +1,38 @@
+[
+  {
+    "order": 2,
+    "type": "image",
+    "url": "assets/images/Projects/Blue/Outer/5.jpg",
+    "title": "Mimari Şaheser",
+    "subtitle": "modern tasarım",
+    "description": "Her detayı özenle tasarlanmış yaşam alanları",
+    "duration": 5000
+  },
+  {
+    "order": 3,
+    "type": "video",
+    "url": "assets/Slides/ReformCinematic.mp4",
+    "title": "Reform3 Vizyonu",
+    "subtitle": "geleceği inşa ediyoruz",
+    "description": "Yenilikçi projelerle sınırları aşıyoruz",
+    "duration": 73000
+  },
+  {
+    "order": 1,
+    "type": "image",
+    "url": "assets/images/Projects/Blue/Outer/12.jpg",
+    "title": "Ticari Merkezler",
+    "subtitle": "iş dünyasının kalbi",
+    "description": "Modern ofis alanları ve ticari çözümler",
+    "duration": 5000
+  },
+  {
+    "order": 4,
+    "type": "image",
+    "url": "assets/images/Projects/Blue/Outer/20.jpg",
+    "title": "Konut Projeleri",
+    "subtitle": "huzurlu yaşam",
+    "description": "Aileniz için güvenli ve konforlu yuvalar",
+    "duration": 5000
+  }
+]

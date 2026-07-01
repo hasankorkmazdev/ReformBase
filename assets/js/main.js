@@ -152,6 +152,49 @@
     return div.innerHTML;
   }
 
+  // ---- Page Sections (Vision, etc.) ----
+  var $projectShowcase = document.getElementById('projectShowcase');
+  var $projectBar = document.getElementById('projectBar');
+  var $projectPlans = document.getElementById('projectPlans');
+  var $visionPage = document.getElementById('visionPage');
+
+  function showVision() {
+    $visionPage.classList.add('active');
+    $projectShowcase.style.display = 'none';
+    $projectBar.style.display = 'none';
+    $projectPlans.style.display = 'none';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function showProjects() {
+    $visionPage.classList.remove('active');
+    $projectShowcase.style.display = '';
+    $projectBar.style.display = '';
+    $projectPlans.style.display = '';
+  }
+
+  // Listen for clicks on VİZYONUMUZ link
+  document.querySelectorAll('.dropdown a').forEach(function (a) {
+    if (a.textContent.trim() === 'VİZYONUMUZ') {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        hideFixed();
+        nav.classList.remove('open');
+        hamburger.classList.remove('active');
+        showVision();
+      });
+    }
+  });
+
+  // Listen for PROJELER nav link to go back to projects view
+  document.querySelectorAll('.nav__link').forEach(function (link) {
+    if (link.textContent.trim() === 'PROJELER') {
+      link.addEventListener('click', function (e) {
+        showProjects();
+      });
+    }
+  });
+
   // ---- Resize ----
   var resizeTimer;
   window.addEventListener('resize', function () {

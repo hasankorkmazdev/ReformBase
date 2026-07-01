@@ -1,317 +1,127 @@
 [
-  {
-    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "title": "RED",
-    "subtitle": "Toplu Konut",
-    "description": "RefRed projesi ile dijital dönüşümde yeni bir çağ başlatıyoruz. Modern altyapısı ve yenilikçi yaklaşımıyla sektörde fark yaratıyor.",
-    "type": "",
-    "color": "#DC3545",
-    "images": [
-      { "cover": "assets/images/business-center.jpg", "order": 1, "active": true },
-      { "cover": "assets/images/house-1.jpg", "order": 2, "active": true },
-      { "cover": "assets/images/hotel.jpg", "order": 3, "active": true },
-      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
-    ],
-    "floorPlans": [
-      {
-        "title": "1+1 Daire",
-        "subtitle": "Kompakt Tip",
-        "description": "55 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
-        "bedroomCount": 1,
-        "showerCount": 1,
-        "daireAdeti": 18,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "2+1 Daire",
-        "subtitle": "Standart Tip",
-        "description": "70 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak",
-        "bedroomCount": 2,
-        "showerCount": 1,
-        "daireAdeti": 24,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "3+1 Daire",
-        "subtitle": "Geniş Aile Tipi",
-        "description": "95 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, balkon",
-        "bedroomCount": 3,
-        "showerCount": 1,
-        "daireAdeti": 12,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "4+1 Daire",
-        "subtitle": "Premium Tip",
-        "description": "120 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
-        "bedroomCount": 4,
-        "showerCount": 2,
-        "daireAdeti": 6,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
-        ]
-      }
-    ]
-  },
+  
   {
     "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
     "title": "BLUE",
-    "subtitle": "Apartman",
-    "description": "RefBlue ile sürdürülebilir ve akıllı çözümler hayata geçiyor. Mavi teknoloji vizyonumuzla geleceği şekillendiriyoruz.",
-    "type": "",
-    "color": "#0F52BA",
-    "images": [
-      { "cover": "assets/images/hotel.jpg", "order": 1, "active": true },
-      { "cover": "assets/images/house-2.jpg", "order": 2, "active": true },
-      { "cover": "assets/images/aparment.jpg", "order": 3, "active": true },
-      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
+    "subtitle": "Otel",
+    "description": " Otel projesi, modern tasarımı ve konforlu odalarıyla misafirlerine unutulmaz bir deneyim sunmayı hedefliyor. Geniş lobi alanı, restoran ve spa gibi olanaklarla donatılmış olan bu otel, şehir merkezine yakın konumuyla da dikkat çekiyor.",
+    "type": [
+      3
     ],
-    "floorPlans": [
+    "color": "#53b6e7",
+    "logo": "assets/images/Projects/Blue/Logo/refblue-light.png",
+    "outerMedia": [
+      { "url": "assets/images/Projects/Blue/Outer/1.jpg",  "type":"image", "order": 1,  "active": true,"slide":false, "cover":true},
+      { "url": "assets/images/Projects/Blue/Outer/2.jpg",  "type":"image", "order": 2,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/3.jpg",  "type":"image", "order": 3,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/3.jpg",  "type":"image", "order": 3,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/4.jpg",  "type":"image", "order": 4,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/5.jpg",  "type":"image", "order": 5,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/6.jpg",  "type":"image", "order": 6,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/7.jpg",  "type":"image", "order": 7,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/8.jpg",  "type":"image", "order": 8,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/9.jpg",  "type":"image", "order": 9,  "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/10.jpg", "type":"image", "order": 10, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/11.jpg", "type":"image", "order": 11, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/12.jpg", "type":"image", "order": 12, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/13.jpg", "type":"image", "order": 13, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/14.jpg", "type":"image", "order": 14, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/15.jpg", "type":"image", "order": 15, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/16.jpg", "type":"image", "order": 16, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/17.jpg", "type":"image", "order": 17, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/18.jpg", "type":"image", "order": 18, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/19.jpg", "type":"image", "order": 19, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/20.jpg", "type":"image", "order": 20, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/21.jpg", "type":"image", "order": 21, "active": true,"slide":false, "cover":false},
+      { "url": "assets/images/Projects/Blue/Outer/22.jpg", "type":"image", "order": 22, "active": true,"slide":false, "cover":false}
+    ],
+    "plans": [
       {
-        "title": "1+1 Daire",
-        "subtitle": "Kompakt Tip",
-        "description": "50 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
-        "bedroomCount": 1,
-        "showerCount": 1,
+        "title": "Standart",
+        "subtitle": "Tek yatak odalı, 14 m² kullanım alanı",
+        "description": "14 m² kullanım alanı, 1 yatak odası, banyo",
         "daireAdeti": 18,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
+         "specs": {
+          "bedroomCount": 1,
+          "showerCount": 1,
+          "balconyCount": 0,
+          "m2": 14
+        },
+        "typeImage": "assets/images/Projects/Blue/Types/Standart/standart-plan.jpg",
+        "innerImages": [
+          { "url": "assets/images/Projects/Blue/Types/Standart/2x.jpg", "order": 1, "active": true, "isCover": true },
+          { "url": "assets/images/Projects/Blue/Types/Standart/3x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/3x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/4x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/5x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/6x.jpg", "order": 1, "active": true, "isCover": false }
         ]
       },
       {
-        "title": "2+1 Daire",
-        "subtitle": "Aile Tipi",
-        "description": "75 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
-        "bedroomCount": 2,
-        "showerCount": 1,
-        "daireAdeti": 10,
+        "title": "Suit",
+        "subtitle": "Standarta göre daha ferah",
+        "description": "27 m² kullanım alanı, 1 yatak odası, banyo, balkon",
+        "specs": {
+          "bedroomCount": 1,
+          "showerCount": 1,
+          "balconyCount": 1,
+          "m2": 27
+        },
+        "typeImage": "assets/images/Projects/Blue/Types/Suit/suit-plan.png",
         "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "3+1 Daire",
-        "subtitle": "Geniş Aile Tipi",
-        "description": "100 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
-        "bedroomCount": 3,
-        "showerCount": 1,
-        "daireAdeti": 8,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "4+1 Daire",
-        "subtitle": "Premium Tip",
-        "description": "130 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
-        "bedroomCount": 4,
-        "showerCount": 2,
-        "daireAdeti": 4,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
+          { "url": "assets/images/Projects/Blue/Types/Suit/suit-plan.jpg", "order": 1, "active": true, "isCover": true },
+          { "url": "assets/images/Projects/Blue/Types/Suit/2x.jpg", "order": 2, "active": true, "isCover": false }
         ]
       }
     ]
   },
-  {
-    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
-    "title": "GREEN",
-    "subtitle": "İş Merkezi",
-    "description": "RefGreen çevreye duyarlı projeleriyle fark yaratıyor. Sürdürülebilirlik odaklı çözümler sunuyoruz.",
-    "type": "",
-    "color": "#28A745",
-    "images": [
-      { "cover": "assets/images/aparment.jpg", "order": 1, "active": true },
-      { "cover": "assets/images/business-center.jpg", "order": 2, "active": true },
-      { "cover": "assets/images/house-1.jpg", "order": 3, "active": true },
-      { "cover": "assets/images/logo.svg", "order": 4, "active": true }
+   {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef12345678902",
+    "title": "Green",
+    "subtitle": "Konut",
+    "description": " Konut projesi, modern tasarımı ve konforlu odalarıyla misafirlerine unutulmaz bir deneyim sunmayı hedefliyor. Geniş lobi alanı, restoran ve spa gibi olanaklarla donatılmış olan bu konut, şehir merkezine yakın konumuyla da dikkat çekiyor.",
+    "type": [
+      3
     ],
-    "floorPlans": [
-      {
-        "title": "Küçük Ofis",
-        "subtitle": "Giriş Seviyesi",
-        "description": "30 m² ofis alanı, açık çalışma düzeni, ortak toplantı odası",
-        "bedroomCount": 0,
-        "showerCount": 0,
-        "daireAdeti": 15,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "Orta Ofis",
-        "subtitle": "Standart",
-        "description": "45 m² ofis alanı, özel çalışma odası, toplantı odası, mutfak",
-        "bedroomCount": 0,
-        "showerCount": 0,
-        "daireAdeti": 10,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "Büyük Ofis",
-        "subtitle": "Executive",
-        "description": "60 m² ofis alanı, özel çalışma odaları, toplantı odası, mutfak",
-        "bedroomCount": 0,
-        "showerCount": 0,
-        "daireAdeti": 8,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "Plaza Ofis",
-        "subtitle": "Premium",
-        "description": "90 m² ofis alanı, özel çalışma odaları, yönetici odası, toplantı odası, mutfak, teras",
-        "bedroomCount": 0,
-        "showerCount": 0,
-        "daireAdeti": 4,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
-    "title": "BROWN",
-    "subtitle": "Toplu Konut",
-    "description": "RefBrow doğal kaynakları verimli kullanarak değer yaratır. Geleneksel ile moderni birleştiren çözümler.",
-    "type": "",
-    "color": "#8B4513",
-    "images": [
-      { "cover": "assets/images/house-1.jpg", "order": 1, "active": true },
-      { "cover": "assets/images/business-center.jpg", "order": 2, "active": true },
-      { "cover": "assets/images/house-2.jpg", "order": 3, "active": true },
-      { "cover": "assets/images/hotel.jpg", "order": 4, "active": true }
+    "color": "#2cb576",
+    "logo": "assets/images/Projects/Green/Logo/refgreen-light.png",
+    "outerMedia": [
     ],
-    "floorPlans": [
+    "plans": [
       {
-        "title": "1+1 Daire",
-        "subtitle": "Kompakt Tip",
-        "description": "55 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
-        "bedroomCount": 1,
-        "showerCount": 1,
-        "daireAdeti": 20,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+        "title": "Standart",
+        "subtitle": "Tek yatak odalı, 14 m² kullanım alanı",
+        "description": "14 m² kullanım alanı, 1 yatak odası, banyo",
+        "daireAdeti": 18,
+         "specs": {
+          "bedroomCount": 1,
+          "showerCount": 1,
+          "balconyCount": 0,
+          "m2": 14
+        },
+        "typeImage": "assets/images/Projects/Blue/Types/Standart/standart-plan.jpg",
+        "innerImages": [
+          { "url": "assets/images/Projects/Blue/Types/Standart/2x.jpg", "order": 1, "active": true, "isCover": true },
+          { "url": "assets/images/Projects/Blue/Types/Standart/3x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/3x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/4x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/5x.jpg", "order": 1, "active": true, "isCover": false },
+          { "url": "assets/images/Projects/Blue/Types/Standart/6x.jpg", "order": 1, "active": true, "isCover": false }
         ]
       },
       {
-        "title": "2+1 Daire",
-        "subtitle": "Standart Tip",
-        "description": "80 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
-        "bedroomCount": 2,
-        "showerCount": 1,
-        "daireAdeti": 30,
+        "title": "Suit",
+        "subtitle": "Standarta göre daha ferah",
+        "description": "27 m² kullanım alanı, 1 yatak odası, banyo, balkon",
+        "specs": {
+          "bedroomCount": 1,
+          "showerCount": 1,
+          "balconyCount": 1,
+          "m2": 27
+        },
         "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 2, "active": true, "isCover": false },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 3, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "3+1 Daire",
-        "subtitle": "Geniş Aile Tipi",
-        "description": "105 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
-        "bedroomCount": 3,
-        "showerCount": 1,
-        "daireAdeti": 14,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false },
-          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 3, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "4+1 Daire",
-        "subtitle": "Premium Tip",
-        "description": "140 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
-        "bedroomCount": 4,
-        "showerCount": 2,
-        "daireAdeti": 6,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
-    "title": "WHITE",
-    "subtitle": "Toplu Konut",
-    "description": "RefWhite şeffaflık ve güven ilkesiyle çalışır. Temiz ve güvenilir çözümler sunuyoruz.",
-    "type": "",
-    "color": "#78909C",
-    "images": [
-      { "cover": "assets/images/house-2.jpg", "order": 1, "active": true },
-      { "cover": "assets/images/hotel.jpg", "order": 2, "active": true },
-      { "cover": "assets/images/aparment.jpg", "order": 3, "active": true },
-      { "cover": "assets/images/house-1.jpg", "order": 4, "active": true }
-    ],
-    "floorPlans": [
-      {
-        "title": "1+1 Daire",
-        "subtitle": "Kompakt Tip",
-        "description": "60 m² kullanım alanı, salon, 1 yatak odası, banyo, mutfak",
-        "bedroomCount": 1,
-        "showerCount": 1,
-        "daireAdeti": 12,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "2+1 Daire",
-        "subtitle": "Standart Tip",
-        "description": "85 m² kullanım alanı, salon, 2 yatak odası, banyo, mutfak, balkon",
-        "daireAdeti": 20,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-6.png", "order": 2, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "3+1 Daire",
-        "subtitle": "Geniş Tip",
-        "description": "100 m² kullanım alanı, salon, 3 yatak odası, banyo, mutfak, 2 balkon",
-        "daireAdeti": 16,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-2.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan-1.png", "order": 2, "active": true, "isCover": false },
-          { "cover": "assets/images/FloorPlans/plan-8.jpg", "order": 3, "active": true, "isCover": false }
-        ]
-      },
-      {
-        "title": "4+1 Daire",
-        "subtitle": "Premium Tip",
-        "description": "130 m² kullanım alanı, salon, 4 yatak odası, 2 banyo, mutfak, balkon, teras",
-        "daireAdeti": 6,
-        "images": [
-          { "cover": "assets/images/FloorPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
-          { "cover": "assets/images/FloorPlans/plan5.jpg", "order": 2, "active": true, "isCover": false }
+          { "url": "assets/images/ProjectPlans/plan-3.png", "order": 1, "active": true, "isCover": true },
+          { "url": "assets/images/ProjectPlans/plan-4.png", "order": 2, "active": true, "isCover": false }
         ]
       }
     ]

@@ -5,20 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reform3</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="blob-bg">
-    <div class="blob blob-black"></div>
-    <div class="blob blob-red"></div>
-    <div class="blob blob-white"></div>
-    <div class="blob blob-blue"></div>
-  </div>
   <div class="site-wrapper">
   <header class="header">
     <div class="container header__inner">
       <a href="/" class="logo">
-        <img src="assets/logo/logo-white.png" alt="Reform3">
+        <img src="assets/logo/logo-dark.png" alt="Reform3">
       </a>
       <button class="hamburger" aria-label="Menüyü Aç/Kapa">
         <span></span>
@@ -73,18 +68,15 @@
       </div>
     </div>
 
-    <section class="floor-plans" id="floorPlans">
+    <section class="project-plans" id="projectPlans">
       <div class="container">
-        <div class="floor-plans__card">
-          <div class="floor-plans__container"></div>
+        <div class="project-plans__card">
+          <div class="project-plans__container"></div>
           <div class="project-detail" id="projectDetail">
             <div class="project-detail__inner" id="projectDetailInner">
               <div class="project-detail__cover">
                 <img class="project-detail__image" alt="Proje Görseli">
-                <div class="project-detail__overlay">
-                  <p class="project-detail__material-text">Kullanılan malzemeler ve yapı malzemelerini öğrenmek için</p>
-                  <button class="project-detail__detail-btn">DETAYLI BİLGİ AL</button>
-                </div>
+                <div class="project-detail__overlay"></div>
               </div>
               <div class="project-detail__form">
                 <h3 class="project-detail__form-title">Daire Bilgi Talep Formu</h3>
@@ -111,6 +103,17 @@
       </div>
     </section>
   </main>
+
+  <section class="page-section" id="visionPage">
+    <div class="container">
+      <div class="page-section__card">
+        <h2 class="page-section__title">Vizyonumuz</h2>
+        <p class="page-section__text">İnşaat sektöründe öncü bir marka olarak tanınmak ve güvenilirliği ile bilinmek. Sürdürülebilir inşaat uygulamalarıyla çevresel etkileri minimize ederek, gelecek nesillere daha iyi bir dünya bırakmayı hedeflemek. Müşterilerimize yaşam kalitesini artıran, estetik ve fonksiyonel konutlar sunarak, sektörde öncü bir konumda yer almak.</p>
+        <p class="page-section__text">Bu misyon ve vizyon doğrultusunda, müşterilerimizin güvenini kazanmak ve onların beklentilerini aşmak için çalışıyoruz. Her bir projemizde, kalite standartlarımızı en üst seviyede tutarak, müşterilerimize mutlu ve güvenli bir yaşam sunmayı amaçlıyoruz. Gelecek nesillere daha yaşanabilir bir çevre bırakmak için çevresel sorumluluğumuzu yerine getirirken, markamızı sektörde öncü bir konuma taşımayı hedefliyoruz.</p>
+        <p class="page-section__text">İnşaat firmamız, sadece evler inşa etmekle kalmaz, aynı zamanda müşterilerimizin hayallerini gerçekleştirir ve mutlu bir yaşam için sağlam temeller atar. Müşterilerimizin gülümsemesini ve memnuniyetini sağlamak, bizim en büyük başarımızdır ve bu doğrultuda ilerlemeye devam edeceğiz.</p>
+      </div>
+    </div>
+  </section>
 
   <div class="dropdown-fixed" id="dropdownFixed"></div>
 
@@ -156,7 +159,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a class="footer-logo" href="/">
-            <img src="assets/logo/logo-white.png" alt="Reform İnovasyon" height="32">
+            <img src="assets/logo/logo-dark.png" alt="Reform İnovasyon" height="32">
           </a>
           <p class="footer-desc">Reform İnovasyon Yapı, inşaat sektöründe yenilikçi projeleriyle geleceği inşa ediyor. Kaba inşaat, iç mekan, dış cephe, mobilya ve danışmanlık hizmetleri.</p>
           <div class="footer-social">
@@ -213,7 +216,9 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="assets/js/projects.js"></script>
+  <script src="assets/js/showcase.js"></script>
   <script src="assets/js/main.js"></script>
 </div>
 </body>
