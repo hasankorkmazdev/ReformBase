@@ -83,7 +83,7 @@ img {
   --primary: #E53935;
   --primary-light: #FF7043;
   --primary-dark: #C62828;
-  --project-color: #1a1a1a;
+  --project-color: #231f20;
   --accent: #1A1A2E;
   --text: #1a1a1a;
   --text-light: #6b7280;
@@ -105,6 +105,40 @@ img {
   position: relative;
   z-index: 1;
   min-height: 100vh;
+}
+
+/* ========== PAGE SPLASH ========== */
+@-webkit-keyframes enter-page {
+  0% { width: 100%; }
+  100% { width: 0%; }
+}
+@keyframes enter-page {
+  0% { width: 100%; }
+  100% { width: 0%; }
+}
+
+.page-splash {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #231f20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.page-splash.exit {
+  -webkit-animation: enter-page 1.2s ease-in forwards;
+          animation: enter-page 1.2s ease-in forwards;
+}
+
+.page-splash__content img {
+  height: 60px;
+  opacity: 0.9;
 }
 
 /* ========== HEADER ========== */

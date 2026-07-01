@@ -110,6 +110,8 @@
       renderProjectPlans(project);
       renderProjectOuterMedia(project);
     }
+
+    $('#projectPlans').slideDown(500);
   }
 
   /* ============================
@@ -200,11 +202,19 @@
         renderProjectBar(data);
         initProjectBarScroll();
 
-        if (data.length > 0) {
-          setActiveProject(data[0].id);
-        }
+        // Initial state: black, no project selected
+        document.documentElement.style.setProperty('--project-color', '#231f20');
+        $('.project-plans__container').empty();
+        $('.project-detail__image').attr('src', '');
+        $('#projectPlans').hide();
 
         bindEvents();
+
+        // Hide splash screen after a brief delay
+        // setTimeout(function () {
+        //   $('#pageSplash').addClass('exit');
+        //   setTimeout(function () { $('#pageSplash').remove(); }, 1400);
+        // }, 1500);
       })
       .fail(function (jqXHR, textStatus, error) {
         console.error('Projeler yüklenemedi:', textStatus, error);
